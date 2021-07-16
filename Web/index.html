@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Dell Start Program</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    </head>
+
+    <body>
+        <h1>Sorting algorithms speed test</h1>
+        <label for="js-numbers">Sorting algorithms speed test</label>
+        <textarea id="js-numbers"></textarea>
+
+        <div class="controls">
+        	<article class="control">
+        		<h3>Сортировка пузырьком</h3>
+        		<button id="js-buttonSortBuble">go</button> 
+        	</article>
+
+        	<article class="control">
+        		<h3>Сортировка выбором</h3>
+        		<button id = "js-buttonSortSelection">go</button>
+        	</article>
+        </div>
+
+        <div id = "js-result" class = "result">
+        	<h2>Результат</h2>
+        	<p id = "js-resultScore" class="scort"> 24 sec</p>
+        	<p id = "js-resultSortedArray" class="score-list"> 24sec</p>	
+        </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+        <script type="text/javascript" src="./assets/script.js"></script>
+    </body>
+
+</html>
